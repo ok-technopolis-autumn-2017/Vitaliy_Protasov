@@ -13,25 +13,25 @@
 	<div class="body">
 
 		<div class="main">
-			<button class="select-all"><img alt="Select all" src="icons/select-all.png"></button>
+			<button class="select-all"><img src="icons/select-all.png" aria-label="select all items"></button>
 			<input class="field" placeholder="What needs to be done?">
 		</div>
 
 		<div class="list">
 
 			<div class="item"> 
-				<button class="status"><img src="icons/completed.png"></button>
-				<div class="item_text" style="display: inline">HTML</div>
+				<button class="status"><img src="icons/completed.png" aria-label="change status of item"></button>
+				<span class="item_text">HTML</span>
 			</div>
 
 			<div class="item"> 
-				<button class="status"><img src="icons/completed.png"></button>
-				<div class="item_text" style="display: inline">CSS</div>
+				<button class="status"><img src="icons/completed.png" aria-label="change status of item"></button>
+				<span class="item_text">CSS</span>
 			</div>
 
 			<div class="item"> 
-				<button class="status"><img src="icons/completed.png"></button>
-				<div class="item_text" style="display: inline">JS</div>
+				<button class="status"><img src="icons/completed.png" aria-label="change status of item"></button>
+				<span class="item_text">JS</span>
 			</div>
 			
 		</div>
@@ -41,12 +41,12 @@
 			<div class="items_left">3 items left</div>
 			
 			<div class="buttons">
-				<input class="radio_all" type="radio" name="radio" checked>All</input>
-				<input class="radio_active" type="radio" name="radio">Active</input>
-				<input class="radio_completed" type="radio" name="radio">Completed</input>
+				<input class="radio_all" type="radio" name="radio" checked aria-label="display all items">All</input>
+				<input class="radio_active" type="radio" name="radio" aria-label="display all active items">Active</input>
+				<input class="radio_completed" type="radio" name="radio" aria-label="display all completed items">Completed</input>
 			</div>
 
-			<button class="clear_completed">Clear completed</button>
+			<button class="clear_completed" aria-label="clear all completed items">Clear completed</button>
 			
 		</div>
 
