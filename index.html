@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TODOS</title>
+</head>
+
+<body>
+
+	<h1 class="title">TODOS</h1>
+
+	<div class="body">
+
+		<div class="main">
+			<button class="select-all" aria-label="select all items"><img src="icons/select-all.png"></button>
+			<input class="field" placeholder="What needs to be done?">
+		</div>
+
+		<div class="list">
+
+			<div class="item"> 
+				<input type="checkbox" class="status" aria-label="change status of item"><img src="icons/completed.png" class="icon-item">HTML
+				<button class="remove-task" aria-label="remove this task"><img src="icons/close.png"></button>
+			</div>
+
+			<div class="item"> 
+				<input type="checkbox" class="status" aria-label="change status of item"><img src="icons/completed.png" class="icon-item">CSS
+				<button class="remove-task" aria-label="remove this task"><img src="icons/close.png"></button>
+			</div>
+
+			<div class="item"> 
+				<input type="checkbox" class="status" aria-label="change status of item"><img src="icons/completed.png" class="icon-item">JS
+				<button class="remove-task" aria-label="remove this task"><img src="icons/close.png"></button>
+			</div>
+			
+		</div>
+
+		<div class="footer">
+			
+			<div class="items-left">3 items left</div>
+			
+			<div class="buttons">
+				<input class="radio-all" type="radio" name="radio" checked aria-label="display all items">All</input>
+				<input class="radio-active" type="radio" name="radio" aria-label="display all active items">Active</input>
+				<input class="radio-completed" type="radio" name="radio" aria-label="display all completed items">Completed</input>
+			</div>
+
+			<button class="clear-completed" aria-label="clear all completed items">Clear completed</button>
+			
+		</div>
+
+	</div>
+</body>
+</html>
